@@ -9,8 +9,6 @@ abstract class A03{
 }
 
 class B03 extends A03{
-	
-	
 	public void b03() {
 		System.out.println("새로운 기능 추가");
 	}

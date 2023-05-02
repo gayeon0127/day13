@@ -14,15 +14,13 @@ class A02 extends ArrayList<String>{
 		// return super.add(e) ; 원래 부모메소드의 내용을 변경하여 사용 가능함.
 		arr[0]=e;
 		return true;
-	} //alt+shift+s - over rride
+	} //alt+shift+s - override
 
 	@Override
 	public String get(int index) {
 		System.out.println("내가 만든 get 실행");
 		return arr[index];
 	}
-	
-	
 }
 
 public class MainClass02 {
@@ -31,6 +29,8 @@ public class MainClass02 {
 		a.add("안녕하세요");
 		System.out.println(a.get(0));
 	}
-
-
 }
+
+
+
+

@@ -18,8 +18,6 @@ class A07 implements Unit07{
 	}
 	public void attack1() {}
 	public void attack2() {}
-	
-	
 }
 
 public class MainClass07 {

@@ -1,11 +1,12 @@
 package inteface;
 
 /*
- * casting = 형 변환
+ * casting 
+ * = 형 변환
  * 
  * up casting
  * ; 부모 형태로 변환하는 것
- * ; 코드를 보다 간결하제 줄일 수 있음.
+ * ; 코드를 보다 간결하게 줄일 수 있음.
  * 
  * down casting
  * ; 부모->자신으로 변환하는 것
@@ -35,10 +36,9 @@ class Son extends Parents{
 	}
 }
 
-
 public class MainClass01 {
 	public static void main(String[] args) {
-		/*
+		/* 각각의 객체 형성하여 호출
 		Parents p = new Parents();
 		p.name();
 		
@@ -56,6 +56,6 @@ public class MainClass01 {
 		p = new Daugther();
 		p.name();
 		p = new Son();
-		p.name();
+		p.name();		
 	}
 }
